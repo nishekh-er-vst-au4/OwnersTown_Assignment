@@ -18,7 +18,7 @@ class App extends React.Component {
     };
 
     fetch(
-      `https://api.twitter.com/1.1/users/search.json?q=${term}&include_entities=true`,
+      `https://api.twitter.com/1.1/users/search.json?q=${term}`,
       requestOptions
     )
       .then((response) => response.text())
