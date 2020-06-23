@@ -1,0 +1,18 @@
+.header {
+    margin-top: 210px;
+    margin-left: 350px;
+}
+.image {
+    height: 80px;
+}
+
+.form-group input {
+    margin-top: 5px;
+    margin-left: 300px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.btn {
+    margin-left: 420px;
+}
