@@ -15,7 +15,6 @@ class App extends React.Component {
       method: "GET",
       headers: myHeaders,
       redirect: "follow",
-      mode: "no-cors",
     };
 
     fetch(
