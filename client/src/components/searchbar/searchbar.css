@@ -1,0 +1,26 @@
+.twit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.header {
+  margin-top: 25px;
+}
+.header1 {
+  margin-top: 25px;
+}
+.image {
+  height: 80px;
+  margin-top: 10px;
+}
+
+.form-group input {
+  margin-top: 5px;
+  margin-left: 370px;
+  border-radius: 5px;
+  width: 350px;
+}
+
+.btn {
+  margin-left: 480px;
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+.account {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.account img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.tweet {
+  margin-top: 8px;
+  font-weight: normal;
+  font-size: 15;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.list-row {
+  justify-content: center;
+}
+
+.user {
+  margin-left: 4px;
+  margin-top: 9px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.date {
+  margin-left: 35px;
+  margin-top: 6px;
+  font-size: 10;
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.comment {
+  justify-content: start;
+}
+.comment span {
+  font-weight: lighter;
+  margin-left: 5px;
+}

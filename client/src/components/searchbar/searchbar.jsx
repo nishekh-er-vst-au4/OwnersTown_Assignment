@@ -15,10 +15,13 @@ class SearchBar extends React.Component {
   };
   render() {
     return (
-      <div className="container">
-        <p className="h5 header">
-          TWEET <img src={logo} alt="tweet" className="image" /> SEARCH
-        </p>
+      <div className="container ">
+        <div className="twit">
+          <p className="h5 header ">TWEET</p>{" "}
+          <img src={logo} alt="tweet" className="image" />{" "}
+          <p className="h5 header1">SEARCH</p>
+        </div>
+
         <form onSubmit={this.onFormSubmit}>
           <div className="form-group">
             <input
