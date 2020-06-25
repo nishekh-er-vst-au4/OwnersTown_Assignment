@@ -37,10 +37,5 @@ app.get("/tweets", async (req, res) => {
   }
 });
 
-app.use(express.static("client/build"));
-
-app.use((req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
 
 app.listen(5000, () => console.log("App running at localhost:5000 🚀"));
