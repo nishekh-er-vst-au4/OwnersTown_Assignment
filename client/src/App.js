@@ -9,7 +9,7 @@ class App extends React.Component {
     data: [],
   };
   onSearchSubmit = async (term) => {
-    const response = await axios.get(`http://localhost:5000/tweets?q=${term}`);
+    const response = await axios.get(`/tweets?q=${term}`);
     this.setState({ data: response.data.data.data.statuses });
   };
   render() {
